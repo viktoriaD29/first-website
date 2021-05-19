@@ -8,14 +8,6 @@
     justify-content: center;
   }
 
-  &__details {
-    max-width: 555px;
-
-    @include for-large-up {
-      margin-right: 228px;
-    }
-  }
-
   &__image {
     max-width: 200px;
     display: inherit;
@@ -24,6 +16,14 @@
     @include for-large-up {
       width: 269px;
       margin-right: 121px;
+    }
+  }
+
+  &__details {
+    max-width: 555px;
+
+    @include for-large-up {
+      margin-right: 228px;
     }
   }
 

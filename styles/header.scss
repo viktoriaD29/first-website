@@ -42,41 +42,6 @@
   }
 }
 
-.navigation {
-  display: none;
-
-  @include for-large-up {
-    display: block;
-    margin-left: auto;
-    margin-top: 7px;
-    margin-right: 75px;
-  }
-
-  &__item {
-    color: #2b292d;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    margin-right: 50px;
-  }
-
-  &__item:last-child {
-    margin-right: 0;
-  }
-
-  &__item_selected {
-    font-weight: 700;
-  }
-
-  &__arrow {
-    display: inline-block;
-    height: 5px;
-    width: 8px;
-    background-image: url(img/arrow.png);
-    margin-left: 11px;
-  }
-}
-
 .logo {
   display: flex;
 
@@ -114,6 +79,41 @@
       opacity: 0.6;
       display: block;
     }
+  }
+}
+
+.navigation {
+  display: none;
+
+  @include for-large-up {
+    display: block;
+    margin-left: auto;
+    margin-top: 7px;
+    margin-right: 75px;
+  }
+
+  &__item {
+    color: #2b292d;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    margin-right: 50px;
+  }
+
+  &__item:last-child {
+    margin-right: 0;
+  }
+
+  &__item_selected {
+    font-weight: 700;
+  }
+
+  &__arrow {
+    display: inline-block;
+    height: 5px;
+    width: 8px;
+    background-image: url(img/arrow.png);
+    margin-left: 11px;
   }
 }
 
