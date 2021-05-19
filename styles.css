@@ -207,7 +207,7 @@
     line-height: 34px;
     position: absolute;
     z-index: 1;
-    top: 200px;
+    top: 188px;
     width: 456px;
     height: 102px;
   }
@@ -219,6 +219,12 @@
   .headline__action {
     margin-top: 58px;
     display: flex;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .headline__action-desktop {
+    position: absolute;
+    top: 380px;
   }
 }
 .headline__learn-more-bt {

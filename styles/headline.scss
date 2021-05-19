@@ -53,7 +53,7 @@
       line-height: 34px;
       position: absolute;
       z-index: 1;
-      top: 200px;
+      top: 188px;
       width: 456px;
       height: 102px;
     }
@@ -65,6 +65,13 @@
     @include for-large-up {
       margin-top: 58px;
       display: flex;
+    }
+  }
+
+  &__action-desktop {
+    @include for-large-up {
+      position: absolute;
+      top: 380px;
     }
   }
 
