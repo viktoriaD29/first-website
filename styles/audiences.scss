@@ -4,14 +4,8 @@
   padding-bottom: 35px;
   background: rgba(0, 161, 198, 0.07);
 
-  @include for-large-up {
-   
-  }
-  
   &__content-container {
-    margin-top: 50px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 50px 15px 0 15px;
 
     @include for-large-up {
       display: flex;
@@ -26,7 +20,7 @@
     font-size: 22px;
     line-height: 34px;
     text-align: center;
-    color: #2B292D;
+    color: #2b292d;
     width: 290px;
     height: 34px;
     margin: 0;
@@ -44,7 +38,7 @@
     font-size: 40px;
     text-align: center;
     letter-spacing: -0.357143px;
-    color: #2B292D;
+    color: #2b292d;
     width: 290px;
     height: 80px;
     margin: 0;
@@ -52,7 +46,6 @@
 
     @include for-large-up {
       width: 555px;
-      font-weight: bold;
       font-size: 56px;
       line-height: 56px;
       text-align: center;
@@ -63,12 +56,11 @@
 
   &__description {
     width: 290px;
-    /*height: 136px;*/
     font-weight: normal;
     font-size: 24px;
     line-height: 34px;
     text-align: center;
-    color: #2B292D;
+    color: #2b292d;
     margin-bottom: 30px;
 
     @include for-large-up {
@@ -85,18 +77,13 @@
   }
 
   &__card-container {
-    margin-top: 40px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 40px 15px 0 15px;
 
     @include for-large-up {
       display: flex;
       flex-direction: row;
       justify-content: center;
-      margin-top: 111px;
-      margin-bottom: 110px;
-      margin-right: 130px;
-      margin-left: 131px;
+      margin: 111px 130px 110px 131px;
     }
   }
 
@@ -106,9 +93,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-5) 100%), #ffffff;
     background-blend-mode: overlay, normal;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     border-radius: 8px;
     margin-bottom: 15px;
 
@@ -130,14 +118,13 @@
       font-size: 22px;
       line-height: 28px;
       text-align: center;
-      color: #2B292D;
+      color: #2b292d;
       padding-bottom: 33px;
       margin-left: 20px;
       margin-right: 20px;
 
       @include for-large-up {
         width: 220px;
-        height: 28px;
       }
     }
   }
@@ -148,8 +135,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #3141C5;
-    color:#FFFFFF;
+    background: #3141c5;
+    color: #ffffff;
     box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
     border-radius: 8px;
     margin-right: 15px;
