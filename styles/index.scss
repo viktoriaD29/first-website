@@ -1,0 +1,29 @@
+@import 'variables.scss';
+@import 'breakpoints.scss';
+@import 'common.scss';
+@import 'header.scss';
+@import 'headline.scss';
+@import 'audiences.scss';
+@import 'order.scss';
+@import 'footer.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Work Sans", sans-serif;
+}
+
+.page {
+  width: 100%;
+  overflow-x: hidden;
+
+  @include for-large-up {
+    max-width: 1400px;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
