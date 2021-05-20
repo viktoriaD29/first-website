@@ -1,5 +1,8 @@
 .order {
-  padding: 50px 15px;
+  /*padding: 50px 15px;*/
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 50px;
   background-color: #f4f5f7;
 
   @include for-large-up {
@@ -9,25 +12,30 @@
   }
 
   &__image {
-    background-image: url('img/order-image.png');
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/illustration-window.png');
     width: 200px;
     height: 200px;
     display: inline-block;
     margin: auto;
 
     @include for-large-up {
-      max-width: 269px;
+      min-width: 269px;
+      min-height: 296px;
       margin-right: 121px;
     }
   }
 
   &__details {
     max-width: 555px;
+    padding-bottom: 50px;
+    
 
     @include for-large-up {
       margin-top: 106px;
       margin-right: 228px;
       margin-bottom: 105px;
+      width: 555px;
+      height: 230px;
     }
   }
 

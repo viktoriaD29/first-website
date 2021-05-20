@@ -66,7 +66,7 @@
 .header__menu-icon {
   width: 18px;
   height: 13px;
-  background-image: url("img/icon-ham.png");
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png");
   display: inline-block;
 }
 
@@ -74,7 +74,7 @@
   display: flex;
 }
 .logo__image {
-  background-image: url("img/icon.png");
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon.png");
   width: 48px;
   height: 48px;
   margin-right: 13px;
@@ -137,7 +137,7 @@
   display: inline-block;
   height: 5px;
   width: 8px;
-  background-image: url(img/arrow.png);
+  background-image: url(https://gromcode.com/courses/html5-css3/tasks/2592);
   margin-left: 11px;
 }
 
@@ -189,7 +189,7 @@
     color: #2B292D;
     margin: 0;
     position: absolute;
-    top: 16px;
+    top: -10px;
     z-index: 1;
   }
 }
@@ -202,7 +202,7 @@
 }
 @media screen and (min-width: 1400px) {
   .headline__description {
-    margin-top: 34px;
+    /*margin-top: 34px;*/
     margin-bottom: 0;
     font-size: 24px;
     line-height: 34px;
@@ -247,17 +247,17 @@
   }
 }
 .headline__banner {
-  background-image: url("img/ouch.png");
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png");
   display: inline-block;
   width: 319px;
   height: 180px;
   margin-bottom: 36px;
-  margin-top: 33px;
+  /*margin-top: 33px;*/
 }
 @media screen and (min-width: 1400px) {
   .headline__banner {
     position: relative;
-    top: -8px;
+    top: -6px;
     width: 796px;
     height: 448px;
     margin-left: auto;
@@ -354,7 +354,7 @@
     margin: 111px 130px 110px 131px;
   }
 }
-.audience__card {
+.audience__user-card {
   width: 290px;
   height: 300px;
   display: flex;
@@ -366,11 +366,11 @@
   border-radius: 8px;
   margin-bottom: 15px;
 }
-.audience__card:hover {
+.audience__user-card:hover {
   background-color: #3141c5;
 }
 @media screen and (min-width: 1400px) {
-  .audience__card {
+  .audience__user-card {
     width: 262px;
     margin-right: 30px;
   }
@@ -402,7 +402,10 @@
 }
 
 .order {
-  padding: 50px 15px;
+  /*padding: 50px 15px;*/
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 50px;
   background-color: #f4f5f7;
 }
 @media screen and (min-width: 1400px) {
@@ -413,7 +416,7 @@
   }
 }
 .order__image {
-  background-image: url("img/order-image.png");
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/illustration-window.png");
   width: 200px;
   height: 200px;
   display: inline-block;
@@ -421,18 +424,22 @@
 }
 @media screen and (min-width: 1400px) {
   .order__image {
-    max-width: 269px;
+    min-width: 269px;
+    min-height: 296px;
     margin-right: 121px;
   }
 }
 .order__details {
   max-width: 555px;
+  padding-bottom: 50px;
 }
 @media screen and (min-width: 1400px) {
   .order__details {
     margin-top: 106px;
     margin-right: 228px;
     margin-bottom: 105px;
+    width: 555px;
+    height: 230px;
   }
 }
 .order__title {
