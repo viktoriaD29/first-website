@@ -351,10 +351,29 @@
     margin: 111px 130px 110px 131px;
   }
 }
-.audience__card-image {
+.audience__card-image_developer {
   margin-top: 22px;
   width: 138px;
   min-height: 195px;
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-1.png");
+}
+.audience__card-image_entertainment {
+  margin-top: 22px;
+  width: 138px;
+  min-height: 195px;
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-2.png");
+}
+.audience__card-image_athletes {
+  margin-top: 22px;
+  width: 138px;
+  min-height: 195px;
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-3.png");
+}
+.audience__card-image_creators {
+  margin-top: 22px;
+  width: 138px;
+  min-height: 195px;
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-4.png");
 }
 .audience__card-title {
   margin: 22px 20px 0 20px;
@@ -575,6 +594,7 @@
   }
 }
 .logo-vertical__image {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-dark.png");
   width: 60px;
   height: 60px;
   margin-bottom: 20px;
@@ -607,8 +627,19 @@
     margin-top: 25px;
   }
 }
-.download__item {
+.download__download__item_app-store {
+  display: inline-block;
+  width: 116px;
+  height: 40px;
   margin-right: 10px;
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/app-store.png");
+}
+.download__download__item_google-play {
+  display: inline-block;
+  width: 116px;
+  height: 40px;
+  margin-right: 10px;
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/google-play.png");
 }
 
 .additional-navigation {
@@ -696,11 +727,26 @@
     margin-left: auto;
   }
 }
-.social__links__links__items {
-  margin-left: 20px;
-}
-.social__links__links__items:first-child {
+.social__links__items_twitter {
+  display: inline-block;
+  width: 21px;
+  height: 16px;
   margin-left: 0;
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-twitter.png");
+}
+.social__links__items_facebook {
+  display: inline-block;
+  width: 21px;
+  height: 16px;
+  margin-left: 20px;
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-fb.png");
+}
+.social__links__items_linkedin {
+  display: inline-block;
+  width: 21px;
+  height: 16px;
+  margin-left: 20px;
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png");
 }
 
 @media screen and (max-width: 319px) {

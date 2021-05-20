@@ -87,10 +87,33 @@
     }
   }
 
-  &__card-image {
+
+  &__card-image_developer {
     margin-top: 22px;
     width: 138px;
     min-height: 195px;
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-1.png');
+  }
+
+  &__card-image_entertainment {
+    margin-top: 22px;
+    width: 138px;
+    min-height: 195px;
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-2.png');
+  }
+
+  &__card-image_athletes {
+    margin-top: 22px;
+    width: 138px;
+    min-height: 195px;
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-3.png');
+  }
+
+  &__card-image_creators {
+    margin-top: 22px;
+    width: 138px;
+    min-height: 195px;
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-4.png');
   }
 
   &__card-title {
