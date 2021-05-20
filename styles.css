@@ -357,7 +357,7 @@
   height: 195px;
 }
 .audience__card-title {
-  margin: 0 20px 0 20px;
+  margin: 22px 20px 0 20px;
   padding-bottom: 33px;
   width: 250px;
   height: 28px;
@@ -419,8 +419,8 @@
 @media screen and (min-width: 1400px) {
   .order__image {
     margin-right: 121px;
-    min-width: 269px;
-    min-height: 296px;
+    width: 269px;
+    height: 296px;
   }
 }
 .order__details {
