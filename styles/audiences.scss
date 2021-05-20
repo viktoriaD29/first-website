@@ -5,7 +5,7 @@
   background: rgba(0, 161, 198, 0.07);
 
   &__content-container {
-    margin: 50px 15px 0 15px;
+    margin: 50px 15px 50px 15px;
 
     @include for-large-up {
       display: flex;
@@ -30,6 +30,7 @@
       margin: auto;
       margin-bottom: 24px;
       width: 168px;
+      height: 34px;
     }
   }
 
@@ -40,6 +41,7 @@
     height: 80px;
     font-weight: bold;
     font-size: 40px;
+    line-height: 40px;
     text-align: center;
     letter-spacing: -0.357143px;
     color: #2b292d;
@@ -47,6 +49,7 @@
     @include for-large-up {
       margin-bottom: 30px;
       width: 555px;
+      height: 112px;
       font-size: 56px;
       line-height: 56px;
       text-align: center;
@@ -57,6 +60,7 @@
   &__description {
     margin-bottom: 30px;
     width: 290px;
+    height: 136px;
     font-weight: normal;
     font-size: 24px;
     color: #2b292d;
@@ -66,6 +70,7 @@
     @include for-large-up {
       margin-bottom: 34px;
       width: 555px;
+      height: 72px;
     }
   }
 
@@ -164,6 +169,7 @@
 
   @include for-large-up {
     margin-right: 30px;
+    margin-bottom: 0;
     width: 262px;
     height: 300px;
   }
