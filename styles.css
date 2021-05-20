@@ -354,7 +354,7 @@
 .audience__card-image {
   margin-top: 22px;
   width: 138px;
-  height: 195px;
+  min-height: 195px;
 }
 .audience__card-title {
   margin: 22px 20px 0 20px;
