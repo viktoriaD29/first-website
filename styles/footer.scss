@@ -58,7 +58,7 @@
   }
 
   &__image {
-    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-dark.png');
+    background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-dark.png");
     width: 60px;
     height: 60px;
     margin-bottom: 20px;
@@ -98,7 +98,7 @@
     width: 116px;
     height: 40px;
     margin-right: 10px;
-    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/app-store.png');
+    background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/app-store.png");
   }
 
   &__download__item_google-play {
@@ -106,7 +106,7 @@
     width: 116px;
     height: 40px;
     margin-right: 10px;
-    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/google-play.png');
+    background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/google-play.png");
   }
 }
 
@@ -199,7 +199,7 @@
     width: 21px;
     height: 16px;
     margin-left: 0;
-    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-twitter.png');
+    background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-twitter.png");
   }
 
   &__items_facebook {
@@ -207,7 +207,7 @@
     width: 21px;
     height: 16px;
     margin-left: 20px;
-    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-fb.png');
+    background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-fb.png");
   }
 
   &__items_linkedin {
@@ -215,10 +215,8 @@
     width: 21px;
     height: 16px;
     margin-left: 20px;
-    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png');
+    background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png");
   }
-
-  
 }
 
 @media screen and (max-width: 319px) {

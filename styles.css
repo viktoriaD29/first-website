@@ -104,7 +104,7 @@
     display: block;
     font-size: 18px;
     line-height: 25px;
-    color: #2B292D;
+    color: #2b292d;
     opacity: 0.6;
   }
 }
@@ -120,7 +120,7 @@
 }
 .navigation__item {
   margin-right: 50px;
-  color: #2B292D;
+  color: #2b292d;
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
@@ -175,7 +175,7 @@
   font-size: 50px;
   line-height: 50px;
   letter-spacing: -0.3125px;
-  color: #2B292D;
+  color: #2b292d;
 }
 @media screen and (min-width: 1400px) {
   .headline__title {
@@ -189,7 +189,7 @@
     font-size: 80px;
     line-height: 78px;
     letter-spacing: -0.5px;
-    color: #2B292D;
+    color: #2b292d;
   }
 }
 .headline__description {
@@ -197,11 +197,10 @@
   font-weight: normal;
   font-size: 24px;
   line-height: 34px;
-  color: #2B292D;
+  color: #2b292d;
 }
 @media screen and (min-width: 1400px) {
   .headline__description {
-    /*margin-top: 34px;*/
     position: absolute;
     z-index: 1;
     top: 199px;
@@ -252,7 +251,6 @@
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png");
   width: 319px;
   height: 180px;
-  /*margin-top: 33px;*/
 }
 @media screen and (min-width: 1400px) {
   .headline__banner {
@@ -472,7 +470,7 @@
   line-height: 40px;
   text-align: center;
   letter-spacing: -0.25px;
-  color: #2B292D;
+  color: #2b292d;
 }
 @media screen and (min-width: 1400px) {
   .order__title {
@@ -486,7 +484,7 @@
   font-weight: normal;
   font-size: 22px;
   line-height: 32px;
-  color: #2B292D;
+  color: #2b292d;
 }
 @media screen and (min-width: 1400px) {
   .order__text {
@@ -519,7 +517,7 @@
   }
 }
 .order__email::placeholder {
-  color: #2B292D;
+  color: #2b292d;
 }
 .order__button {
   margin-top: 12px;
@@ -554,7 +552,7 @@
   line-height: 26px;
   width: 360px;
   margin-top: 30px;
-  color: #2B292D;
+  color: #2b292d;
   opacity: 0.6;
   display: none;
 }
@@ -564,7 +562,7 @@
   }
 }
 .footer__line {
-  border-top: 1px solid #2B292D;
+  border-top: 1px solid #2b292d;
   margin: 0;
   width: 100%;
   opacity: 0.1;
@@ -615,14 +613,14 @@
   font-weight: 700;
   font-size: 20px;
   text-align: center;
-  color: #2B292D;
+  color: #2b292d;
   line-height: 25px;
 }
 .logo-vertical__description {
   font-weight: 400;
   font-size: 18px;
   text-align: center;
-  color: #2B292D;
+  color: #2b292d;
   opacity: 0.6;
   line-height: 25px;
 }
@@ -684,7 +682,7 @@
   font-weight: bold;
   font-size: 22px;
   line-height: 28px;
-  color: #2B292D;
+  color: #2b292d;
   margin: 0;
 }
 .nav-links__list {
@@ -725,7 +723,7 @@
 }
 .terms__item {
   text-decoration: none;
-  color: #2B292D;
+  color: #2b292d;
   opacity: 0.6;
   margin-right: 22px;
 }

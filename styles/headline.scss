@@ -48,7 +48,6 @@
     color: $text-color-dark-grey;
 
     @include for-large-up {
-      /*margin-top: 34px;*/
       position: absolute;
       z-index: 1;
       top: 199px;
@@ -101,11 +100,8 @@
     display: inline-block;
     margin-bottom: 36px;
     background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png");
-
     width: 319px;
     height: 180px;
-
-    /*margin-top: 33px;*/
 
     @include for-large-up {
       position: relative;
