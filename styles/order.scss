@@ -25,7 +25,9 @@
     max-width: 555px;
 
     @include for-large-up {
+      margin-top: 106px;
       margin-right: 228px;
+      margin-bottom: 105px;
     }
   }
 

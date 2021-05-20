@@ -189,7 +189,7 @@
     color: #2B292D;
     margin: 0;
     position: absolute;
-    top: 25px;
+    top: 16px;
     z-index: 1;
   }
 }
@@ -208,7 +208,7 @@
     line-height: 34px;
     position: absolute;
     z-index: 1;
-    top: 188px;
+    top: 199px;
     width: 456px;
     height: 102px;
   }
@@ -225,7 +225,7 @@
 @media screen and (min-width: 1400px) {
   .headline__action-desktop {
     position: absolute;
-    top: 380px;
+    top: 359px;
   }
 }
 .headline__learn-more-bt {
@@ -257,7 +257,7 @@
 @media screen and (min-width: 1400px) {
   .headline__banner {
     position: relative;
-    top: 0;
+    top: -8px;
     width: 796px;
     height: 448px;
     margin-left: auto;
@@ -430,7 +430,9 @@
 }
 @media screen and (min-width: 1400px) {
   .order__details {
+    margin-top: 106px;
     margin-right: 228px;
+    margin-bottom: 105px;
   }
 }
 .order__title {

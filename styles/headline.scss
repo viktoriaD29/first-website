@@ -34,7 +34,7 @@
       color: $text-color-dark-grey;
       margin: 0;
       position: absolute;
-      top: 25px;
+      top: 16px;
       z-index: 1;
     }
   }
@@ -53,7 +53,7 @@
       line-height: 34px;
       position: absolute;
       z-index: 1;
-      top: 188px;
+      top: 199px;
       width: 456px;
       height: 102px;
     }
@@ -71,7 +71,7 @@
   &__action-desktop {
     @include for-large-up {
       position: absolute;
-      top: 380px;
+      top: 359px;
     }
   }
 
@@ -103,7 +103,7 @@
 
     @include for-large-up {
       position: relative;
-      top: 0;
+      top: -8px;
       width: 796px;
       height: 448px;
       margin-left: auto;
