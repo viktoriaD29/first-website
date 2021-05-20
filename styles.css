@@ -27,18 +27,18 @@
 }
 
 .header {
-  background-color: #fff;
-  height: 64px;
   display: flex;
   align-items: center;
   padding-left: 15px;
+  background-color: #fff;
+  height: 64px;
 }
 @media screen and (min-width: 1400px) {
   .header {
+    display: flex;
+    margin: auto;
     width: 1140px;
     height: 62px;
-    margin: auto;
-    display: flex;
     background-color: transparent;
   }
 }
@@ -51,11 +51,11 @@
   }
 }
 .header__menu-button {
+  margin-left: auto;
   width: 58px;
   height: 100%;
   border: none;
   border-left: 1px solid #00000026;
-  margin-left: auto;
   background-color: transparent;
 }
 @media screen and (min-width: 1400px) {
@@ -64,32 +64,32 @@
   }
 }
 .header__menu-icon {
+  display: inline-block;
   width: 18px;
   height: 13px;
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png");
-  display: inline-block;
 }
 
 .logo {
   display: flex;
 }
 .logo__image {
+  margin: 0 13px 8px 0;
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon.png");
   width: 48px;
   height: 48px;
-  margin-right: 13px;
 }
 @media screen and (min-width: 1400px) {
   .logo__image {
+    margin-right: 15px;
     width: 60px;
     height: 60px;
-    margin-right: 15px;
   }
 }
 .logo__name {
   font-size: 20px;
-  line-height: 25px;
   font-weight: 700;
+  line-height: 25px;
 }
 .logo__text {
   display: flex;
@@ -101,11 +101,11 @@
 }
 @media screen and (min-width: 1400px) {
   .logo__description {
+    display: block;
     font-size: 18px;
     line-height: 25px;
     color: #2B292D;
     opacity: 0.6;
-    display: block;
   }
 }
 
@@ -115,17 +115,15 @@
 @media screen and (min-width: 1400px) {
   .navigation {
     display: block;
-    margin-left: auto;
-    margin-top: 7px;
-    margin-right: 75px;
+    margin: 7px 75px 7px auto;
   }
 }
 .navigation__item {
+  margin-right: 50px;
   color: #2B292D;
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
-  margin-right: 50px;
 }
 .navigation__item:last-child {
   margin-right: 0;
@@ -135,10 +133,10 @@
 }
 .navigation__arrow {
   display: inline-block;
+  margin-left: 11px;
+  background-image: url(https://gromcode.com/courses/html5-css3/tasks/2592);
   height: 5px;
   width: 8px;
-  background-image: url(https://gromcode.com/courses/html5-css3/tasks/2592);
-  margin-left: 11px;
 }
 
 .top-section {
@@ -146,8 +144,8 @@
 }
 @media screen and (min-width: 1400px) {
   .top-section {
-    background-color: #f3c6bd;
     padding-top: 39px;
+    background-color: #f3c6bd;
   }
 }
 
@@ -156,11 +154,11 @@
 }
 @media screen and (min-width: 1400px) {
   .headline {
-    width: 1140px;
-    margin: auto;
-    position: relative;
-    margin-top: 84px;
     display: flex;
+    position: relative;
+    margin: auto;
+    margin-top: 84px;
+    width: 1140px;
   }
 }
 .headline__content {
@@ -180,6 +178,10 @@
 }
 @media screen and (min-width: 1400px) {
   .headline__title {
+    position: absolute;
+    margin: 0;
+    top: -10px;
+    z-index: 1;
     width: 754px;
     height: 165px;
     font-weight: bold;
@@ -187,30 +189,26 @@
     line-height: 78px;
     letter-spacing: -0.5px;
     color: #2B292D;
-    margin: 0;
-    position: absolute;
-    top: -10px;
-    z-index: 1;
   }
 }
 .headline__description {
+  margin-top: 24px;
   font-weight: normal;
   font-size: 24px;
   line-height: 34px;
   color: #2B292D;
-  margin-top: 24px;
 }
 @media screen and (min-width: 1400px) {
   .headline__description {
     /*margin-top: 34px;*/
-    margin-bottom: 0;
-    font-size: 24px;
-    line-height: 34px;
     position: absolute;
     z-index: 1;
     top: 199px;
+    margin-bottom: 0;
     width: 456px;
-    height: 102px;
+    height: 172px;
+    font-size: 24px;
+    line-height: 34px;
   }
 }
 .headline__action {
@@ -218,8 +216,8 @@
 }
 @media screen and (min-width: 1400px) {
   .headline__action {
-    margin-top: 58px;
     display: flex;
+    margin-top: 58px;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -229,40 +227,39 @@
   }
 }
 .headline__learn-more-bt {
-  background-color: #fff;
-  color: #3040c4;
+  margin-top: 12px;
   width: 100%;
   height: 48px;
+  background-color: #fff;
+  color: #3040c4;
   font-weight: 700;
   font-size: 18px;
   border-radius: 2px;
   border: none;
-  margin-top: 15px;
 }
 @media screen and (min-width: 1400px) {
   .headline__learn-more-bt {
-    margin-left: 10px;
-    margin-top: 0;
+    margin: 0 0 0 10px;
     width: 158px;
   }
 }
 .headline__banner {
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png");
   display: inline-block;
+  margin-bottom: 36px;
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png");
   width: 319px;
   height: 180px;
-  margin-bottom: 36px;
   /*margin-top: 33px;*/
 }
 @media screen and (min-width: 1400px) {
   .headline__banner {
     position: relative;
     top: -6px;
+    right: -105px;
+    margin-left: auto;
+    margin-bottom: 77px;
     width: 796px;
     height: 448px;
-    margin-left: auto;
-    right: -105px;
-    margin-bottom: 77px;
   }
 }
 
@@ -284,57 +281,57 @@
   }
 }
 .audience__text {
+  margin: 0;
+  margin-bottom: 17px;
+  width: 290px;
+  height: 34px;
   font-weight: bold;
   font-size: 22px;
   line-height: 34px;
   text-align: center;
   color: #2b292d;
-  width: 290px;
-  height: 34px;
-  margin: 0;
-  margin-bottom: 17px;
 }
 @media screen and (min-width: 1400px) {
   .audience__text {
-    width: 168px;
     margin: auto;
     margin-bottom: 24px;
+    width: 168px;
   }
 }
 .audience__title {
+  margin: 0;
+  margin-bottom: 18px;
+  width: 290px;
+  height: 80px;
   font-weight: bold;
   font-size: 40px;
   text-align: center;
   letter-spacing: -0.357143px;
   color: #2b292d;
-  width: 290px;
-  height: 80px;
-  margin: 0;
-  margin-bottom: 18px;
 }
 @media screen and (min-width: 1400px) {
   .audience__title {
+    margin-bottom: 30px;
     width: 555px;
     font-size: 56px;
     line-height: 56px;
     text-align: center;
     letter-spacing: -0.5px;
-    margin-bottom: 30px;
   }
 }
 .audience__description {
+  margin-bottom: 30px;
   width: 290px;
   font-weight: normal;
   font-size: 24px;
+  color: #2b292d;
   line-height: 34px;
   text-align: center;
-  color: #2b292d;
-  margin-bottom: 30px;
 }
 @media screen and (min-width: 1400px) {
   .audience__description {
-    width: 555px;
     margin-bottom: 34px;
+    width: 555px;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -354,33 +351,14 @@
     margin: 111px 130px 110px 131px;
   }
 }
-.audience__user-card {
-  width: 290px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
-  background-blend-mode: overlay, normal;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
-  margin-bottom: 15px;
-}
-.audience__user-card:hover {
-  background-color: #3141c5;
-}
-@media screen and (min-width: 1400px) {
-  .audience__user-card {
-    width: 262px;
-    margin-right: 30px;
-  }
-}
 .audience__card-image {
+  margin-top: 22px;
   width: 138px;
   height: 195px;
-  margin-top: 22px;
 }
 .audience__card-title {
+  margin: 0 20px 0 20px;
+  padding-bottom: 33px;
   width: 250px;
   height: 28px;
   font-weight: bold;
@@ -388,9 +366,6 @@
   line-height: 28px;
   text-align: center;
   color: #2b292d;
-  padding-bottom: 33px;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 .audience__card-title:hover {
   color: white;
@@ -401,55 +376,72 @@
   }
 }
 
+.user-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 290px;
+  height: 300px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
+  background-blend-mode: overlay, normal;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+.user-card:hover {
+  background-color: #3141c5;
+}
+@media screen and (min-width: 1400px) {
+  .user-card {
+    margin-right: 30px;
+    width: 262px;
+  }
+}
+
 .order {
-  /*padding: 50px 15px;*/
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 50px;
+  padding: 50px 15px 0 15px;
   background-color: #f4f5f7;
 }
 @media screen and (min-width: 1400px) {
   .order {
-    padding: 73px 0 72px 0;
     display: flex;
     justify-content: center;
+    padding: 73px 0 72px 0;
   }
 }
 .order__image {
+  display: inline-block;
+  margin: auto;
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/illustration-window.png");
   width: 200px;
   height: 200px;
-  display: inline-block;
-  margin: auto;
 }
 @media screen and (min-width: 1400px) {
   .order__image {
+    margin-right: 121px;
     min-width: 269px;
     min-height: 296px;
-    margin-right: 121px;
   }
 }
 .order__details {
-  max-width: 555px;
   padding-bottom: 50px;
+  max-width: 555px;
 }
 @media screen and (min-width: 1400px) {
   .order__details {
-    margin-top: 106px;
-    margin-right: 228px;
-    margin-bottom: 105px;
+    margin: 106px 228px 105px 0;
     width: 555px;
     height: 230px;
   }
 }
 .order__title {
+  margin-top: 40px;
   font-weight: bold;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
   letter-spacing: -0.25px;
   color: #2B292D;
-  margin-top: 40px;
 }
 @media screen and (min-width: 1400px) {
   .order__title {
@@ -458,12 +450,12 @@
   }
 }
 .order__text {
+  margin: 0;
+  margin-top: 18px;
   font-weight: normal;
   font-size: 22px;
   line-height: 32px;
   color: #2B292D;
-  margin: 0;
-  margin-top: 18px;
 }
 @media screen and (min-width: 1400px) {
   .order__text {
@@ -480,15 +472,15 @@
 }
 .order__email {
   margin-top: 40px;
+  height: 48px;
+  width: 100%;
   background: #fff;
+  font-size: 18px;
+  text-align: center;
+  line-height: 13px;
   border: 1px solid rgba(43, 41, 45, 0.2);
   box-sizing: border-box;
   border-radius: 2px;
-  height: 48px;
-  width: 100%;
-  text-align: center;
-  font-size: 18px;
-  line-height: 13px;
 }
 @media screen and (min-width: 1400px) {
   .order__email {
@@ -504,10 +496,9 @@
 }
 @media screen and (min-width: 1400px) {
   .order__button {
-    margin-top: 0;
-    margin-left: 10px;
-    width: 160px;
     flex-shrink: 0;
+    margin: 0 0 0 10px;
+    width: 160px;
   }
 }
 .order__terms {
@@ -731,11 +722,11 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .page {
-    max-width: 1400px;
-    margin: auto;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: auto;
+    max-width: 1400px;
+    min-height: 100vh;
   }
 }
 
