@@ -170,6 +170,7 @@
   }
 }
 .headline__title {
+  margin: 0;
   font-weight: bold;
   font-size: 50px;
   line-height: 50px;
@@ -414,6 +415,7 @@
   .user-card {
     margin-right: 30px;
     width: 262px;
+    height: 300px;
   }
 }
 

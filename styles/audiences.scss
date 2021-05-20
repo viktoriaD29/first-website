@@ -93,6 +93,8 @@
     width: 138px;
     min-height: 195px;
     background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-1.png');
+
+    
   }
 
   &__card-image_entertainment {
@@ -163,5 +165,6 @@
   @include for-large-up {
     margin-right: 30px;
     width: 262px;
+    height: 300px;
   }
 }
