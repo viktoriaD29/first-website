@@ -376,7 +376,7 @@
   }
 }
 .audience__card-image {
-  max-width: 138px;
+  width: 138px;
   height: 195px;
   margin-top: 22px;
 }
