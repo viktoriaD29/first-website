@@ -9,12 +9,14 @@
   }
 
   &__image {
-    max-width: 200px;
-    display: inherit;
+    background-image: url('img/order-image.png');
+    width: 200px;
+    height: 200px;
+    display: inline-block;
     margin: auto;
 
     @include for-large-up {
-      width: 269px;
+      max-width: 269px;
       margin-right: 121px;
     }
   }
@@ -33,17 +35,28 @@
     line-height: 40px;
     text-align: center;
     letter-spacing: -0.25px;
-    color: #2b292d;
+    color: $color-dark-grey;
     margin-top: 40px;
+
+    @include for-large-up {
+      margin: 0;
+      text-align: left;
+    }
   }
 
   &__text {
     font-weight: normal;
     font-size: 22px;
     line-height: 32px;
-    color: #2b292d;
+    color: $color-dark-grey;
     margin: 0;
     margin-top: 18px;
+
+    @include for-large-up {
+      margin: 0;
+      margin-top: 12px;
+      margin-bottom: 26px;
+    }
   }
 
   &__form {
@@ -55,7 +68,7 @@
 
   &__email {
     margin-top: 40px;
-    background: #ffffff;
+    background: $color-white;
     border: 1px solid rgba(43, 41, 45, 0.2);
     box-sizing: border-box;
     border-radius: 2px;
@@ -70,7 +83,7 @@
     }
 
     &::placeholder {
-      color: #2b292d;
+      color: $color-dark-grey;
     }
   }
 

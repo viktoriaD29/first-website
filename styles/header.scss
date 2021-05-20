@@ -1,5 +1,5 @@
 .header {
-  background-color: #fff;
+  background-color: $color-white;
   height: 64px;
   display: flex;
   align-items: center;
@@ -46,6 +46,7 @@
   display: flex;
 
   &__image {
+    background-image: url('img/icon.png');
     width: 48px;
     height: 48px;
     margin-right: 13px;
@@ -75,7 +76,7 @@
     @include for-large-up {
       font-size: 18px;
       line-height: 25px;
-      color: #2b292d;
+      color: $color-dark-grey;
       opacity: 0.6;
       display: block;
     }
@@ -93,7 +94,7 @@
   }
 
   &__item {
-    color: #2b292d;
+    color: $color-dark-grey;
     text-decoration: none;
     font-size: 18px;
     line-height: 25px;

@@ -8,7 +8,7 @@
     line-height: 26px;
     width: 360px;
     margin-top: 30px;
-    color: #2b292d;
+    color: $color-dark-grey;
     opacity: 0.6;
     display: none;
 
@@ -18,7 +18,7 @@
   }
 
   &__line {
-    border-top: 1px solid #2b292d;
+    border-top: 1px solid $color-dark-grey;
     margin: 0;
     width: 100%;
     opacity: 0.1;
@@ -67,7 +67,7 @@
     font-weight: 700;
     font-size: 20px;
     text-align: center;
-    color: #2b292d;
+    color: $color-dark-grey;
     line-height: 25px;
   }
 
@@ -75,7 +75,7 @@
     font-weight: 400;
     font-size: 18px;
     text-align: center;
-    color: #2b292d;
+    color: $color-dark-grey;
     opacity: 0.6;
     line-height: 25px;
   }
@@ -126,7 +126,7 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 28px;
-    color: #2b292d;
+    color: $color-dark-grey;
     margin: 0;
   }
 
@@ -167,7 +167,7 @@
 
   &__item {
     text-decoration: none;
-    color: #2b292d;
+    color: $color-dark-grey;
     opacity: 0.6;
     margin-right: 22px;
   }
