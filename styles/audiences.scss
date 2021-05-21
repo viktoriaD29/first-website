@@ -68,6 +68,7 @@
     text-align: center;
 
     @include for-large-up {
+      margin: 0;
       margin-bottom: 34px;
       width: 555px;
       height: 72px;
