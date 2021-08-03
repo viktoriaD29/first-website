@@ -118,6 +118,7 @@
     margin-top: 22px;
     width: 138px;
     min-height: 195px;
+    background: no-repeat;
     background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-4.png");
   }
 
@@ -131,10 +132,6 @@
     line-height: 28px;
     text-align: center;
     color: #2b292d;
-
-    // &:hover {
-    //   color: rgba(255, 255, 255, 1);
-    // }
 
     @include for-large-up {
       width: 220px;

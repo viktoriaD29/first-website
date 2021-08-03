@@ -96,18 +96,14 @@
   }
 
   &__banner {
-    display: inline-block;
+    width: 100%;
     margin-bottom: 36px;
-    background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png");
-    width: 319px;
-    height: 180px;
 
     @include for-large-up {
       position: relative;
-      top: -6px;
-      right: -105px;
       margin-left: auto;
-      margin-bottom: 77px;
+      right: -105px;
+      top: 0;
       width: 796px;
       height: 448px;
     }

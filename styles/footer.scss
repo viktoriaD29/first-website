@@ -193,6 +193,9 @@
   @include for-large-up {
     margin-left: auto;
   }
+  &__items {
+    color: white;
+  }
 
   &__items_twitter {
     display: inline-block;
@@ -215,6 +218,7 @@
     width: 21px;
     height: 16px;
     margin-left: 20px;
+    background: no-repeat;
     background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png");
   }
 }
