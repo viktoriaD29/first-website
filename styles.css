@@ -67,7 +67,7 @@
   display: inline-block;
   width: 18px;
   height: 13px;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png");
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png');
 }
 
 .logo {
@@ -75,7 +75,7 @@
 }
 .logo__image {
   margin: 0 13px 8px 0;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon.png");
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon.png');
   width: 48px;
   height: 48px;
 }
@@ -246,7 +246,7 @@
 .headline__banner {
   display: inline-block;
   margin-bottom: 36px;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png");
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png');
   width: 319px;
   height: 180px;
 }
@@ -360,25 +360,25 @@
   margin-top: 22px;
   width: 138px;
   min-height: 195px;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-1.png");
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-1.png');
 }
 .audience__card-image_entertainment {
   margin-top: 22px;
   width: 138px;
   min-height: 195px;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-2.png");
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-2.png');
 }
 .audience__card-image_athletes {
   margin-top: 22px;
   width: 138px;
   min-height: 195px;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-3.png");
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-3.png');
 }
 .audience__card-image_creators {
   margin-top: 22px;
   width: 138px;
   min-height: 195px;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-4.png");
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-4.png');
 }
 .audience__card-title {
   margin: 22px 20px 0 20px;
@@ -407,13 +407,20 @@
   margin-bottom: 15px;
   width: 290px;
   height: 300px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 0.00001) 100%
+    ),
+    #ffffff;
   background-blend-mode: overlay, normal;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
 }
 .user-card:hover {
   background-color: #3141c5;
+  color: rgba(255, 255, 255, 1);
 }
 @media screen and (min-width: 1400px) {
   .user-card {
@@ -440,7 +447,7 @@
 .order__image {
   display: inline-block;
   margin: auto;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/illustration-window.png");
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/illustration-window.png');
   width: 200px;
   height: 200px;
 }
@@ -603,7 +610,7 @@
   }
 }
 .logo-vertical__image {
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-dark.png");
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-dark.png');
   width: 60px;
   height: 60px;
   margin-bottom: 20px;
@@ -641,14 +648,14 @@
   width: 116px;
   height: 40px;
   margin-right: 10px;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/app-store.png");
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/app-store.png');
 }
 .download__download__item_google-play {
   display: inline-block;
   width: 116px;
   height: 40px;
   margin-right: 10px;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/google-play.png");
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/google-play.png');
 }
 
 .additional-navigation {
@@ -741,21 +748,21 @@
   width: 21px;
   height: 16px;
   margin-left: 0;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-twitter.png");
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-twitter.png');
 }
 .social__links__items_facebook {
   display: inline-block;
   width: 21px;
   height: 16px;
   margin-left: 20px;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-fb.png");
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-fb.png');
 }
 .social__links__items_linkedin {
   display: inline-block;
   width: 21px;
   height: 16px;
   margin-left: 20px;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png");
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png');
 }
 
 @media screen and (max-width: 319px) {
@@ -768,7 +775,7 @@
 }
 
 html {
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .page {

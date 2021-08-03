@@ -132,9 +132,9 @@
     text-align: center;
     color: #2b292d;
 
-    &:hover {
-      color: rgba(255, 255, 255, 1);
-    }
+    // &:hover {
+    //   color: rgba(255, 255, 255, 1);
+    // }
 
     @include for-large-up {
       width: 220px;
@@ -158,6 +158,7 @@
 
   &:hover {
     background-color: rgba(49, 65, 197, 1);
+    color: rgba(255, 255, 255, 1);
   }
 
   @include for-large-up {
