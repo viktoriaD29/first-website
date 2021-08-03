@@ -1,4 +1,4 @@
-# first-website
+# startup-website
 <a href="https://viktoriad29.github.io/startup-website/"><h2>Site Link:</h2> </a>
 https://viktoriad29.github.io/startup-website/
 
